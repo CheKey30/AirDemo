@@ -72,7 +72,7 @@ public class AirCondition {
         influxDB.deleteDatabase(dbname);
         influxDB.createDatabase(dbname);
         BatchPoints batchPoints = BatchPoints.database(dbname).build();
-        for (int i=0;i<100;i++){
+        for (int i=0;i<arrayLists.size();i++){
             Point point = Point.measurement("air")
                     .addField("Date",arrayLists.get(i)[0])
                     .addField("Time",arrayLists.get(i)[1])
