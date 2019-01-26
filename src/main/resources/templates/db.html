@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>db</title>
+</head>
+<body>
+<h1>Air Condition Data</h1>
+<table>
+    <tr>
+        <th th:text="${head[0]}"></th>
+        <th th:text="${head[1]}"></th>
+        <th th:text="${head[2]}"></th>
+        <th th:text="${head[3]}"></th>
+        <th th:text="${head[4]}"></th>
+        <th th:text="${head[5]}"></th>
+        <th th:text="${head[6]}"></th>
+        <th th:text="${head[7]}"></th>
+        <th th:text="${head[8]}"></th>
+        <th th:text="${head[9]}"></th>
+        <th th:text="${head[10]}"></th>
+        <th th:text="${head[11]}"></th>
+        <th th:text="${head[12]}"></th>
+        <th th:text="${head[13]}"></th>
+        <th th:text="${head[14]}"></th>
+    </tr>
+    <tr th:each="i:${value}">
+        <td th:text="${i[0]}"></td>
+        <td th:text="${i[1]}"></td>
+        <td th:text="${i[2]}"></td>
+        <td th:text="${i[3]}"></td>
+        <td th:text="${i[4]}"></td>
+        <td th:text="${i[5]}"></td>
+        <td th:text="${i[6]}"></td>
+        <td th:text="${i[7]}"></td>
+        <td th:text="${i[8]}"></td>
+        <td th:text="${i[9]}"></td>
+        <td th:text="${i[10]}"></td>
+        <td th:text="${i[11]}"></td>
+        <td th:text="${i[12]}"></td>
+        <td th:text="${i[13]}"></td>
+        <td th:text="${i[14]}"></td>
+    </tr>
+</table>
+</body>
+</html>
