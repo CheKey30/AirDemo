@@ -3,7 +3,7 @@ This is the website to (a) load csv file data into InfluxDB (b) display the data
 
 To start this project, you should: 
 
-  1.download it and open it with Intellij IDEA.
+  1.download it and open it with IDEA.
   
   2.change the code "InfluxDB influxDB = InfluxDBFactory.connect("http://localhost:8086", "root", "root");" in "AirCondition.java" to your own setting.
   
